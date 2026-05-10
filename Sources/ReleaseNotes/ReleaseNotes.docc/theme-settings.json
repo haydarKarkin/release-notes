@@ -1,0 +1,19 @@
+{
+  "theme": {
+    "color": {
+      "standard-blue": {
+        "light": "hsl(211, 80%, 42%)",
+        "dark": "hsl(211, 80%, 55%)"
+      },
+      "fills": {
+        "purple": {
+          "light": "hsl(211, 80%, 42%)",
+          "dark": "hsl(211, 80%, 55%)"
+        }
+      }
+    },
+    "typography": {
+      "html-font-size": "16px"
+    }
+  }
+}
