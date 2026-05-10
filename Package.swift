@@ -1,4 +1,4 @@
-// swift-tools-version: 5.9
+// swift-tools-version: 5.10
 import PackageDescription
 
 let package = Package(
@@ -8,10 +8,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "ReleaseNotes",
-            plugins: [
-                .plugin(name: "Swift-DocC Plugin", package: "swift-docc-plugin")
-            ]
+            name: "ReleaseNotes"
         )
     ]
 )
