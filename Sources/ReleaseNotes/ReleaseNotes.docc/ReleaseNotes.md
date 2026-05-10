@@ -21,4 +21,20 @@ future self won't hate you for.
 
 ## Topics
 
-TBD
+### Changelog
+
+*Career history — what shipped, when, and with what impact.*
+
+- <doc:Experience>
+
+### Dependencies
+
+*The tools and technologies I work with.*
+
+- <doc:Skills>
+
+### Build History
+
+*Education and formal training.*
+
+- <doc:Education>
