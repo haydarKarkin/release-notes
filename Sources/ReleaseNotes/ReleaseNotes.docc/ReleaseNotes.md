@@ -57,3 +57,9 @@ development, and a record of what I've built and learned along the way.
 *Education and formal training.*
 
 - <doc:Education>
+
+### Patch Notes
+
+*Write-ups on the tools I build with.*
+
+- <doc:DoccPipeline>
