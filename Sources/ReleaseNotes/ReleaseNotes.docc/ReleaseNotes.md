@@ -63,3 +63,4 @@ development, and a record of what I've built and learned along the way.
 *Write-ups on the tools I build with.*
 
 - <doc:DoccPipeline>
+- <doc:AsyncSequenceOperator>
