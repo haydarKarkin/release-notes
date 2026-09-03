@@ -1,6 +1,6 @@
 # ``ReleaseNotes``
 
-Senior iOS Engineer with 12+ years of experience shipping apps that people actually use —
+Senior iOS Developer with 12+ years of experience shipping apps that people actually use —
 from real-time messaging platforms to fintech, transit, and enterprise tooling.
 
 @Metadata {
