@@ -8,6 +8,10 @@ Senior iOS Developer. I build iOS apps that keep working as they grow.
     @PageColor(blue)
 }
 
+@Options {
+    @TopicsVisualStyle(compactGrid)
+}
+
 ## Overview
 
 I've been building iOS apps for over a decade, first in Turkey and now in
