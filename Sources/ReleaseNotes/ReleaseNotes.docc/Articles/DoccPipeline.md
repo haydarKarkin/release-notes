@@ -3,6 +3,11 @@
 Building one documentation site from two sources: the API reference the
 compiler generates, and the articles I write by hand.
 
+@Metadata {
+    @PageImage(purpose: card, source: "card-docc", alt: "A document page")
+    @CallToAction(url: "https://github.com/haydarKarkin/GardenKit", purpose: link, label: "View GardenKit on GitHub")
+}
+
 ## Overview
 
 This site uses the [swift-docc-plugin][plugin]. One command and it works,

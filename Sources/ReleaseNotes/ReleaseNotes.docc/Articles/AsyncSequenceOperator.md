@@ -3,6 +3,11 @@
 What it takes to add an operator like `throttleFirst` to `AsyncSequence`, and
 how to test it without waiting for real time to pass.
 
+@Metadata {
+    @PageImage(purpose: card, source: "card-async", alt: "An input timeline throttled to one element per window")
+    @CallToAction(url: "https://github.com/haydarKarkin/Throttling", purpose: link, label: "View Throttling on GitHub")
+}
+
 ## Overview
 
 The standard library gives `AsyncSequence` the basics: `map`, `filter`,
