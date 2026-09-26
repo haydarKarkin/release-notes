@@ -2,6 +2,10 @@
 
 Computer Engineering, studied in English, at two universities in Izmir.
 
+@Metadata {
+    @PageImage(purpose: card, source: "card-education", alt: "A graduation cap")
+}
+
 ## Overview
 
 I did my master's coursework while working full time as an iOS developer.

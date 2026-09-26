@@ -2,6 +2,10 @@
 
 The languages, frameworks and tools I work with, and where I've used them.
 
+@Metadata {
+    @PageImage(purpose: card, source: "card-dependencies", alt: "A package box")
+}
+
 ## Overview
 
 A list of tools says little on its own, so each group below notes where the

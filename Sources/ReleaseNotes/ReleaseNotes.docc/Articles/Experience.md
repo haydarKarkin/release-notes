@@ -2,6 +2,10 @@
 
 What I've shipped, company by company, newest first.
 
+@Metadata {
+    @PageImage(purpose: card, source: "card-changelog", alt: "A commit timeline")
+}
+
 ## Overview
 
 12+ years of iOS work across banking, messaging, events and public transport.
