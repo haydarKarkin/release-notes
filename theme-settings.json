@@ -1,5 +1,6 @@
 {
   "theme": {
+    "border-radius": "12px",
     "color": {
       "standard-blue": {
         "light": "hsl(211, 80%, 42%)",
@@ -14,6 +15,13 @@
     },
     "typography": {
       "html-font-size": "16px"
+    }
+  },
+  "features": {
+    "docs": {
+      "quickNavigation": {
+        "enable": true
+      }
     }
   }
 }
