@@ -1,31 +1,29 @@
 # Build History
 
-Formal education and the foundation it laid.
+Computer Engineering, studied in English, at two universities in Izmir.
 
 ## Overview
 
-I studied Computer Engineering in English at two Turkish universities, graduating
-with strong GPAs in both. My master's coursework deepened my theoretical foundations
-while my career was already in full swing — an intentional overlap that made
-both more meaningful.
+I did my master's coursework while working full time as an iOS developer.
+I finished every course and left during the thesis, so I don't hold a master's
+degree.
 
 ---
 
-## Attended Master's Degree
-**Computer Engineering (English)**  
-Izmir Institute of Technology · 2018 · GPA 3.14 / 4.0
+## Master's Studies
 
-Advanced coursework in algorithms, distributed systems, and software engineering theory.
-Studied while already working professionally — every concept mapped directly onto
-real problems I was solving.
+**Computer Engineering (English)**  
+Izmir Institute of Technology · 2015 – 2018
+
+Completed all coursework of the M.Sc. program with a GPA of 3.14 / 4.0. The
+thesis was not submitted.
 
 ---
 
 ## Bachelor's Degree
+
 **Computer Engineering (English)**  
 Izmir University · 2013 · GPA 3.11 / 4.0
 
-Four-year foundation in computer science: data structures, operating systems,
-databases, software architecture, and mathematics. Graduated and entered
-the industry as a Software Test Engineer at Cybersoft — quality first,
-from day one.
+After graduating I started as a Software Test Engineer at Cybersoft, and moved
+to iOS development two years later.
