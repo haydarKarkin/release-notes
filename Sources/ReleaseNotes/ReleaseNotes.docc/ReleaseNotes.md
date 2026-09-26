@@ -1,7 +1,6 @@
 # ``ReleaseNotes``
 
-Senior iOS Developer with 12+ years of experience shipping apps that people actually use —
-from real-time messaging platforms to fintech, transit, and enterprise tooling.
+Senior iOS Developer. I build iOS apps that keep working as they grow.
 
 @Metadata {
     @TitleHeading("Welcome to")
@@ -11,56 +10,61 @@ from real-time messaging platforms to fintech, transit, and enterprise tooling.
 
 ## Overview
 
-I've spent over a decade at the intersection of clean architecture and product delivery,
-working across Turkey, and now Germany. I've contributed to apps with millions of active
-users — including **BIP** (3.5M monthly actives), **Finansbank** (2M+ users), and
-**ioki**'s white-label transit platform powering 70+ branded applications across Europe.
+I've been building iOS apps for over a decade, first in Turkey and now in
+Germany. The work I care about most is the part users never see: clean
+architecture, tests you can trust, and release tooling that lets a small team
+ship often. It's unglamorous. It's also what makes release day boring, which
+is the goal.
 
-My engineering philosophy is simple: code should be easy to delete, easy to test,
-and hard to misuse. I care deeply about the boundaries between layers, the contracts
-between modules, and the kind of pull request that teaches rather than just passes review.
+Right now that means 70+ public transport apps on one Swift codebase at
+**ioki**, part of a mobility platform that has served nearly 10 million
+passengers. Before that I worked on messaging (**BiP**, 3.5M monthly users),
+banking (**QNB Finansbank**), live events at **Cisco**, where we shipped 100+
+branded apps from one codebase, and public transport at **Kentkart**.
 
-Beyond writing Swift, I've led teams, introduced testing cultures from scratch, built
-CI/CD pipelines, and pushed for practices that make codebases healthier over time —
-not just on the day they're written.
+When I led a team at Ecospend, I did the groundwork for each new feature
+myself: the interfaces, the services and the test cases it had to pass. Then
+someone on the team built the rest.
 
-This site is my development hub: a living CV, a place to think out loud about iOS
-development, and a record of what I've built and learned along the way.
+This site is where I keep my CV and write about the tools I use. The pages are
+named like a release: the changelog is my work history, the dependencies are my
+stack, and the patch notes are articles.
 
 ### Currently
 
-- 🚀 Senior iOS Developer at **ioki**, Frankfurt — building the future of demand-responsive transit
-- 🌱 Deepening my knowledge of Swift 6 concurrency, strict concurrency checking, and actor isolation
-- ✍️ Writing about iOS architecture, testing, and the tools I reach for
+- Senior iOS Developer at **ioki** in Frankfurt, working on ticketing,
+  real-time ride tracking and release tooling.
+- Writing about iOS tooling. The latest pieces cover a DocC documentation
+  pipeline and writing your own `AsyncSequence` operator.
 
-### Let's connect
+### Get in touch
 
-- 💼 [linkedin.com/in/haydar-karkin](https://www.linkedin.com/in/haydar-karkin/)
-- 🐙 [github.com/haydarKarkin](https://github.com/haydarKarkin)
+- [LinkedIn](https://www.linkedin.com/in/haydar-karkin/)
+- [GitHub](https://github.com/haydarKarkin)
 
 ## Topics
 
 ### Changelog
 
-*Career history — what shipped, when, and with what impact.*
+Work history: what shipped, where and when.
 
 - <doc:Experience>
 
 ### Dependencies
 
-*The tools and technologies I work with.*
+The languages, frameworks and tools I work with.
 
 - <doc:Skills>
 
 ### Build History
 
-*Education and formal training.*
+Education.
 
 - <doc:Education>
 
 ### Patch Notes
 
-*Write-ups on the tools I build with.*
+Articles about the tools I build with.
 
 - <doc:DoccPipeline>
 - <doc:AsyncSequenceOperator>
