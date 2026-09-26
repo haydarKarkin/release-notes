@@ -1,105 +1,94 @@
 # Dependencies
 
-The tools, languages, and frameworks I reach for — and why.
+The languages, frameworks and tools I work with, and where I've used them.
 
 ## Overview
 
-Over 12 years I've built up a stack that I'm genuinely comfortable with,
-not just familiar with. Here's what I use and what I think of each.
+A list of tools says little on its own, so each group below notes where the
+tool did real work. The details are in <doc:Experience>.
 
 ---
 
-## Core Languages
+## Languages
 
-### Swift
-My primary language. I've been writing Swift since the early days and have
-watched it mature into one of the best-designed languages in the industry.
-Strong opinions on value types, protocol-oriented design, and the right
-use of generics.
-
-### Objective-C
-Still fluent. Legacy codebases don't scare me — bridging Swift and ObjC
-in mixed projects is something I've done extensively.
+- **Swift.** My main language, from UIKit apps to Swift Concurrency and
+  Swift Package Manager modules.
+- **Objective-C.** Still comfortable reading and changing it in mixed
+  codebases.
 
 ---
 
-## iOS Frameworks
+## UI
 
-| Framework | Depth |
-|-----------|-------|
-| UIKit | Expert — built complex custom UI, animations, layout systems |
-| SwiftUI | Production experience, follow evolution closely |
-| Core Data | Extensive — entity design, migration strategies, sync |
-| Combine | Production use for reactive state management |
-| Instruments | Deep profiling, memory leak detection, time profiling |
+- **UIKit** and **SwiftUI**, side by side in the same codebase at ioki.
+- **Accessibility.** VoiceOver and right-to-left support across a
+  white-label product.
+- **watchOS.** A companion app at Kentkart that reached the top 3 of the Apple
+  Watch apps section on the Turkish App Store.
 
 ---
 
-## Reactive Programming
+## Concurrency and Reactive
 
-- **RxSwift** — primary reactive framework across multiple projects
-- **Combine** — preferred for new Swift-first codebases
-- **ReactiveObjC** — legacy projects at Turkcell/Ericsson
+| Tool | Where |
+|------|-------|
+| Swift Concurrency | Real-time ride tracking at ioki |
+| Combine | Reactive state in iOS apps |
+| RxSwift, RxCocoa | The reactive MVVM-C architecture I defined at Ecospend |
+
+I also write my own `AsyncSequence` operators when the standard ones don't
+fit. <doc:AsyncSequenceOperator> walks through one.
 
 ---
 
-## Networking
+## Networking and Data
 
-- **REST APIs** — standard, done this hundreds of times
-- **GraphQL** — used at Ecospend
-- **XMPP** — real-time messaging protocol at Turkcell (BIP)
+| Tool | Where |
+|------|-------|
+| REST APIs | Every job |
+| GraphQL | Client work in iOS apps |
+| Firebase Realtime Database | Real-time data at Cisco and ioki |
+| Core Data | BiP's messaging data layer, with XMPP |
+| Realm | Local persistence |
+| SQL | Data checks since my test engineer days |
 
 ---
 
 ## Architecture
 
-I've worked in and led migrations between multiple patterns:
-
-- **MVVM-C** — preferred for larger codebases; coordinators keep navigation testable
-- **MVVM** — solid default for most projects
-- **MVC** — understand its tradeoffs; can work with it, prefer to evolve away from it
-
-Deeper principles I apply regardless of pattern: **SOLID**, **dependency injection**,
-**protocol-oriented design**, **clean boundaries between layers**.
+- **MVVM-C**, **MVVM** and **MVC**. MVVM-C is what I reach for when an app
+  has many flows, since coordinators keep navigation out of the view models.
+- **Modular apps with SPM.** Features and shared code as Swift packages.
+- **White-label.** One codebase, many branded apps: 100+ event apps at Cisco,
+  70+ transit apps at ioki.
+- **Interface-first design.** Protocols and test cases before the
+  implementation, which is how I ran new features as a team lead.
 
 ---
 
 ## Testing
 
-- **Unit Testing** — XCTest, protocol mocking, test-driven features
-- **Snapshot Testing** — iOSSnapshotTestCase; introduced at Cisco, cut defects 40%
-- **BDD** — Behavior-Driven Development with Quick/Nimble
+- **XCTest** and **Swift Testing** for unit tests.
+- **Quick/Nimble** for behavior tests.
+- **Snapshot and screenshot tests** that render screens in fixed states to
+  catch visual regressions before release.
 
 ---
 
-## CI/CD & Tooling
+## CI and Release
 
 | Tool | Use |
 |------|-----|
-| Fastlane | Automated builds, signing, App Store deploys |
-| Bitrise | Primary CI platform at Cisco and Ecospend |
-| GitHub Actions | Used for open-source and personal projects |
-| SonarQube | Static analysis, code quality gates |
-| Danger | Automated PR checks and linting |
-| SwiftLint | Code style enforcement |
+| GitHub Actions | CI, and App Store Connect automation for 70+ apps |
+| Fastlane | Builds, signing and App Store delivery |
+| Bitrise, Codemagic | Hosted CI |
+| SonarQube, Danger, SwiftLint | Static analysis, pull request checks, linting |
 
 ---
 
-## Databases
+## Tooling
 
-- **Realm** — real-time sync, change observation (Cisco)
-- **Core Data** — complex entity graphs, multi-context setups (Turkcell)
-- **SQL** — general relational DB knowledge
-
----
-
-## Signature Practices
-
-Beyond tools — the ways of working I bring to every team:
-
-- **Functional & Reactive Programming**
-- **Dependency Injection** — constructor injection preferred, DI containers when needed
-- **Design Patterns** — practical application, not pattern-for-pattern's-sake
-- **Code Review culture** — I give reviews that teach, not just approve or reject
-- **Application Profiling** — Instruments is a first-class debugging tool for me
-- **Agile / Scrum** — ran sprints as team lead, participated meaningfully as IC
+- **Tuist** for project generation.
+- **DocC** for API reference and written guides. This site is built with it.
+- **SwiftPM**, **CocoaPods** and **Carthage** for dependencies.
+- **Instruments** and **Crashlytics** for profiling, memory leaks and crashes.
