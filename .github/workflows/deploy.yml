@@ -25,7 +25,8 @@ jobs:
             generate-documentation \
             --target ReleaseNotes \
             --output-path ./docs \
-            --transform-for-static-hosting
+            --transform-for-static-hosting \
+            --experimental-enable-custom-templates
       - name: Add root redirect
         run: |
           cat > ./docs/index.html << 'HTML'

@@ -10,19 +10,22 @@ Live at **https://www.haydarkarkin.com**
 ```
 Sources/ReleaseNotes/ReleaseNotes.docc/
 ├── ReleaseNotes.md               ← Home page
+├── header.html                   ← Site header (custom template)
 ├── Articles/
 │   ├── Experience.md             ← Changelog (work history)
 │   ├── Skills.md                 ← Dependencies (tech stack)
 │   ├── Education.md              ← Build History
 │   ├── DoccPipeline.md           ← Patch Notes: generated and written DocC docs
 │   └── AsyncSequenceOperator.md  ← Patch Notes: a custom AsyncSequence operator
+├── Resources/                    ← Card images, light and ~dark
 └── theme-settings.json           ← Colors and typography
 ```
 
 ## Local Preview
 
 ```bash
-swift package --disable-sandbox preview-documentation --target ReleaseNotes
+swift package --disable-sandbox preview-documentation --target ReleaseNotes \
+  --experimental-enable-custom-templates
 ```
 
 Then open the URL it prints (http://localhost:8080/documentation/releasenotes/
