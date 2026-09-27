@@ -1,0 +1,75 @@
+<!doctype html><html lang="en-US" class="no-js"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><link rel="icon" href="/favicon.ico"><link rel="mask-icon" href="/favicon.svg" color="#333333"><title>Documentation</title><script>var baseUrl = "/"</script><script defer="defer" src="/js/chunk-vendors.0b7dc663.js"></script><script defer="defer" src="/js/index.b232e9de.js"></script><link href="/css/index.19043b1e.css" rel="stylesheet"></head><body data-color-scheme="auto"><template id="custom-header"><style>
+  :host {
+    --bg: #ffffff;
+    --ink: #1d1d1f;
+    --muted: #6e6e73;
+    --line: rgba(0, 0, 0, 0.1);
+    --accent: hsl(211, 80%, 42%);
+  }
+  :host([data-color-scheme="dark"]) {
+    --bg: #000000;
+    --ink: #f5f5f7;
+    --muted: #a1a1a6;
+    --line: rgba(255, 255, 255, 0.16);
+    --accent: hsl(211, 80%, 62%);
+  }
+  @media (prefers-color-scheme: dark) {
+    :host([data-color-scheme="auto"]) {
+      --bg: #000000;
+      --ink: #f5f5f7;
+      --muted: #a1a1a6;
+      --line: rgba(255, 255, 255, 0.16);
+      --accent: hsl(211, 80%, 62%);
+    }
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 10px 22px;
+    background: var(--bg);
+    border-bottom: 1px solid var(--line);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .me {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 0;
+    color: var(--ink);
+    text-decoration: none;
+  }
+  .me img {
+    flex: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px var(--line);
+  }
+  .me span { display: grid; line-height: 1.25; min-width: 0; }
+  .me strong { font-size: 15px; font-weight: 600; }
+  .me small { font-size: 13px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  nav { display: flex; gap: 18px; flex: none; }
+  nav a { font-size: 14px; color: var(--accent); text-decoration: none; }
+  nav a:hover { text-decoration: underline; }
+  @media (max-width: 480px) {
+    header { padding: 8px 16px; }
+    .me small { display: none; }
+    nav { gap: 14px; }
+  }
+</style>
+<header>
+  <a class="me" href="/documentation/releasenotes/">
+    <img src="data:image/jpeg;base64,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" alt="Portrait of Haydar Karkin" width="40" height="40">
+    <span>
+      <strong>Haydar Karkin</strong>
+      <small>Senior iOS Developer</small>
+    </span>
+  </a>
+  <nav aria-label="Profiles">
+    <a href="https://www.linkedin.com/in/haydar-karkin/">LinkedIn</a>
+    <a href="https://github.com/haydarKarkin">GitHub</a>
+  </nav>
+</header>
+</template><noscript><style>.noscript{font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;margin:92px auto 140px auto;text-align:center;width:980px}.noscript-title{color:#111;font-size:48px;font-weight:600;letter-spacing:-.003em;line-height:1.08365;margin:0 auto 54px auto;width:502px}@media only screen and (max-width:1068px){.noscript{margin:90px auto 120px auto;width:692px}.noscript-title{font-size:40px;letter-spacing:0;line-height:1.1;margin:0 auto 45px auto;width:420px}}@media only screen and (max-width:735px){.noscript{margin:45px auto 60px auto;width:87.5%}.noscript-title{font-size:32px;letter-spacing:.004em;line-height:1.125;margin:0 auto 35px auto;max-width:330px;width:auto}}#loading-placeholder{display:none}</style><div class="noscript"><h1 class="noscript-title">This page requires JavaScript.</h1><p>Please turn on JavaScript in your browser and refresh the page to view its content.</p></div></noscript><div id="app"></div></body></html>
