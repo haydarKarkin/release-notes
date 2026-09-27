@@ -39,7 +39,8 @@ stack, and the patch notes are articles.
 - Senior iOS Developer at **ioki** in Frankfurt, working on ticketing,
   real-time ride tracking and release tooling.
 - Writing about iOS tooling. The latest pieces cover a DocC documentation
-  pipeline and writing your own `AsyncSequence` operator.
+  pipeline, writing your own `AsyncSequence` operator, and turning DocC into
+  a personal site.
 
 ### Get in touch
 
@@ -72,3 +73,4 @@ Articles about the tools I build with.
 
 - <doc:DoccPipeline>
 - <doc:AsyncSequenceOperator>
+- <doc:DoccPersonalSite>
